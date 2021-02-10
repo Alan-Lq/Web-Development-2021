@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    color: #262626;
+    font-size: 14px;
+    font-style: inherit;
+}
+
+a {
+    color: #00376b;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 80px;
+    font-size: 13px;
+}
+
+span {
+    color: #0095f6;
+    font-weight: 600;
+    line-height: 18px;
+    font: inherit;
+    font-weight: 500;
+}
+
+body {
+    background-color: rgba(var(--b3f,250,250,250),1);
+}
+
+content {
+    width: 100%;
+    height: 100%;
+}
+
+pass-forg {
+    cursor: pointer;
+    height: 50px;
+}
+
+
+option-1 {
+    width: 941px;
+    height: 21px;
+}
+
+
+select{
+    border-color: rgba(var(--b3f,250,250,250),1);
+    border-radius: 0;
+    border-width: 1px;
+}
+
+.content-1 {
+    height: 618px;
+    margin-left: 308px;
+    margin-top: 32px;
+    width: 450px;
+}
+
+.photo {
+    position: absolute;
+    left: 459px;
+    top: 131px;
+}
+
+.content-2 {
+    width: 500px;
+    height: 700px;
+    position: absolute;
+    top: 0;
+    left: 747px;
+}
+
+.form-instagram {
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    width: 348px;
+    height: 358px;
+    margin-top: 65px;
+    margin-left: 0;
+    padding: 10px 0;
+    background-color: white;    
+}
+
+.logo {
+    margin-left: 87px;
+    margin-top: 22px;
+}
+
+.form {
+    margin-top: 32px;
+    margin-left: 37px;
+}
+
+input[type="text"], input[type="password"], input[type="submit"]{
+    width: 258px;
+    border-radius: 2px;
+    border: 1px solid #dddfe2;
+    height: 22px;
+    margin: 0 3px 7px 3px;
+    background-color: rgba(var(--b3f,250,250,250),1);
+    font-size: 13px;
+    padding: 8px 0 7px 8px;
+    color: rgba(var(--i1d,38,38,38),1);
+    
+} 
+
+input[type="submit"] {
+    background-color: #1877f2;
+    color: white;
+    padding: 0 16px;
+    width: 268px;
+    height: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    
+}
+
+.in-content {
+    margin-top: 100px;
+}
+
+.or {
+    position: absolute;
+    left: 160px;
+    top:320px;
+    font-size: 19px;
+    line-height: 15px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+
+.line {
+    height: 1px;
+    border-bottom: 1px solid #dddfe2;
+    width: 101.2px;
+    float: left;
+    position: absolute;
+    top: 325px;
+    left: 42px;
+}
+
+.marg {
+    float: right;
+    position: absolute;
+    top: 325px;
+    left: 200px;
+}
+
+.facebook {
+    position: absolute;
+    top:370px;
+    left: 90px;
+    width: 400px;
+    
+}
+
+.facebook p{
+    color: #385185;
+    cursor: pointer;
+}
+.facebook-img {
+    width: 25px;
+    height: 25px;
+    float: left;
+    cursor: pointer;
+}
+
+
+
+
+.form-instagram-2 {
+    margin-top: 10px;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    width: 330px;
+    height: 40px;
+    background-color: white;
+    padding-left: 18px;
+    padding-top: 21px;
+}
+
+.form-instagram-2 p {
+    font-size: 14px;
+}
+
+.apps {
+    width: 330px;
+    height: 40px;
+    margin-top: 21px;
+}
+
+.apps p {
+    text-align: center;
+    
+}
+
+.image-apps {
+    margin-top: 18px;
+    margin-left: 33px;
+}
+
+.image-apps img{
+    width: 136px;
+    height: 40px;
+    
+}
+.footer{
+    width: 750px;
+    height: 120px;
+    margin-left: 346px;
+    margin-top: 47px;
+
+}
+
+
+
+
+.footer a,select,p{
+    float: left;
+    list-style-type: none;
+    font-size: 12px;
+    color: #737373;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    margin:5px;
+    padding: 0;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+
+.select {
+    padding-top: 60px;
+    padding-left: 245px;
+}
