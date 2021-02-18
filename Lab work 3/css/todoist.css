@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(34,34,34);
+    color: rgb(138,139,144);
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.container{
+    width: 70%;
+    margin: 150px auto;
+    text-align: center;
+}
+.container h2{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: bold;
+}
+input[type="text"]{
+    width: 70%;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+#add-btn{
+    margin-left: 20px;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(54, 121, 182);
+    color: white;
+    border-radius: 6px;
+}
+#add-btn:hover{
+    cursor: pointer;
+}
+#all-tasks{
+    width: 90%;
+    margin: 50px auto;
+    list-style-type: none;
+    font-size: 18px;
+    padding-left: 0px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-radius: 3px;
+}
+#all-tasks li{
+    text-align: left;
+    border-bottom: 1px solid #ccc;
+    padding: 20px;
+}
+#all-tasks label{
+    padding-left: 10px;
+}
+#del{
+    color: red;
+    border: none;
+    background-color: inherit;
+    float: right;
+}
+#del:hover{
+    cursor: pointer;
+}
+input[type="checkbox"]:hover{
+    cursor: pointer;
+}
+.complete{
+    text-decoration-line:line-through;
+}
+.not-complete{
+    text-decoration:none;
+}
