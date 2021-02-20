@@ -66,6 +66,20 @@
   Topics
   TypeScript
   Angular
+  
+  Lab 4 - Online store
+  Show your understanding of Angular.
+  Complete project from tutorial Your First App.
+  Add component “product-item”, which shows for each product:
+  image
+  name
+  description
+  rating
+  Each product should be linked to a real item from Amazon.
+  Must be at least 10 products
+  Buttons “Share” for each product, by clicking, user should be redirected to Whatsapp or Telegram with link to the product 
+  Optional: Add product image gallery, minimum 3 images.
+
 
   Useful links
   https://angular.io/guide/setup-local
