@@ -1,0 +1,10 @@
+<div class="container" *ngFor="let item of itemList; let i = index; ">
+  <button (click) = "goBack(i)"><</button>
+  <img src="{{item['imgSrc'][item['imgCnt']]}}" width="200px" height="200px">
+  <button type="button" name="button" (click) = "goForward(i)">></button>
+  <a href="{{item['Link']}}"><h1>{{item['Name']}}</h1></a>
+  <p>{{item['Description']}}</p>
+  <p>{{item['Rating']}}🌟</p>
+  <button type="button" name="button" onclick="window.location.href='tg://';">Share on Telegram</button>
+  <button type="button" name="button" onclick="window.location.href='https://web.whatsapp.com';">Share on Whatsapp</button>
+</div>
