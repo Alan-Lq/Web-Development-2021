@@ -1,0 +1,17 @@
+<div class="container">
+  <button (click)='goBack()'><</button>
+  <img src={{item.imgs[item.imgCount]}} width="200px" height="200px">
+  <button type="button" name="button" (click)='goForward()'>></button>
+  <a href={{item.link}}><h1>{{item.name}}</h1></a>
+  <p>{{item.description}}</p>
+  <p>{{item.rating}}🌟</p>
+  <div class="likes">
+    <label for="female"></label>
+    <input type="text" name = 'value' class = 'text' disabled [value] = 'item.likes' >
+    <label for="">likes </label>
+    <button type="button" name="button" (click)="item.likes = item.likes+1;" [disabled] = 'item.likes == item.initLikes ? false : true'>Like</button>
+  </div>
+  <button type="button" name="button" onclick="window.location.href='https://web.telegram.org/#/im';">Share on Telegram</button>
+  <button type="button" name="button" onclick="window.location.href=' https://api.whatsapp.com/send?phone=77088452170';">Share on Whatsapp</button>
+  <button type="button" name="button" (click) = 'deleteItem(item.myId)'>Delete</button>
+</div>
