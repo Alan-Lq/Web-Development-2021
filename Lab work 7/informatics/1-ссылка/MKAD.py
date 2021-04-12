@@ -1,0 +1,12 @@
+a=int(input())
+b=int(input())
+if(a>0):
+  if(a*b>109):
+    print((a*b)%109)
+  else:
+    print(109-a*b)
+else:
+  if(a*b*(-1)>109):
+    print(109-((-1)*(a*b))%109)
+  else:
+    print(109-a*b*(-1))
