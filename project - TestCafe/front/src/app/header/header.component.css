@@ -1,0 +1,105 @@
+@font-face {
+  font-family : 'Roboto', sans-serif;
+  src:url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap");
+}
+body {
+  font-family: inherit;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #eee;
+  z-index: 4;
+}
+
+.header {
+  height: 100vh;
+  background-image:
+    url('https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table.jpg');
+  background-size: cover;
+  background-position: top;
+  position: relative;
+
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 74%);
+}
+
+.brand-box {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  display: flex;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: bolder;
+  font-style: inherit;
+}
+.login {
+  padding-left: 800px;
+  font-size: 20px;
+  font-style: inherit;
+  text-shadow: black;
+}
+a {
+  text-decoration: none;
+
+}
+
+.signup {
+  padding-left: 50px;
+  font-size: 20px;
+  font-style: inherit;
+}
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-primary {
+  font-family : 'Roboto', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 30px;
+}
+
+.heading-primary {
+  text-transform : uppercase;
+  display: block;
+  font-size: 26px;
+  font-weight: 400;
+  letter-spacing: 5px;
+}
+
+.btn {
+  background-color: #fff;
+  color: #777;
+  font-size: 14px;
+}
+
+.btn:link,
+.btn:visited {
+  font-family : 'Roboto', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border-radius: 5px;
+  transition: all .2s;
+  position: relative;
+}
+
+.btn:hover  {
+  transform: translateY(-3px);
+  text-decoration:underline;
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+

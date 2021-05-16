@@ -1,0 +1,20 @@
+<div class="menu-categories">
+  <a routerLink="/menu"><h1 style="text-align:center; margin: 40px 0px; color: mediumpurple;">Menu</h1></a>
+
+</div>
+<div class="products">
+  <div class="product-item maxScale"  *ngFor="let dish of dishes">
+
+    <h3>
+      <a routerLink="/dishes/{{dish.id}}"  [title]="dish.name " >
+        {{ dish.name }}
+      </a>
+    </h3>
+    <img src={{dish.imageUrl}} width="270px">
+    <div>
+      <h3 id="price">{{ dish.price }} tenge</h3>
+
+    </div>
+  </div>
+
+</div>

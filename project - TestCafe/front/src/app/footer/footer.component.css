@@ -1,0 +1,76 @@
+footer {
+  width: 100%;
+  height: 220px;
+  position: relative;
+  clear: both;
+  background-color: black;
+  margin-top: 3cm;
+}
+
+.footer_sections {
+  font-family : 'Roboto', sans-serif;
+  font-weight : 300;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: 15px;
+  margin-right: 55px;
+  background-color: black;
+}
+
+.about_us {
+  font-weight : 300;
+  margin-left: 150px;
+}
+.tagline {
+  width: 20%;
+  margin-left: 350px;
+}
+
+.partners {
+  margin-left: 50px;
+}
+
+.contact {
+  width: 220px;
+}
+
+.contact p {
+  margin-left: 10px;
+  color: white;
+
+}
+
+.telegram {
+  color: white;
+}
+
+h5 {
+  margin-top: 7px;
+  margin-bottom: 12px;
+  margin-left: 10px;
+  font-size: 17px;
+  font-weight : 300;
+  font-family: 'Roboto', sans-serif;
+  color: orangered;
+}
+
+footer a {
+  margin: 5px 0px 0px 10px;
+  font-size: 15px;
+  color: white;
+  display: block;
+}
+
+footer a:hover {
+  color: #9e6faa;
+}
+
+.social_media ol  {
+  list-style: none;
+}
+
+.social_media li {
+  display: inline-flex;
+  padding-left: 5px;
+}

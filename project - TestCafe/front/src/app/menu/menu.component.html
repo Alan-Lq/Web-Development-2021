@@ -1,0 +1,12 @@
+<h1 class="menu-head">Menu</h1>
+<div class="products" >
+  <div class="product-item maxScale"  *ngFor="let menuItem of menu">
+
+    <h3>
+      <a routerLink="{{menuItem.id}}/dishes"  [title]="menuItem.name " >
+        {{ menuItem.name }}
+      </a>
+    </h3>
+    <img src={{menuItem.image_url_menu}} width="270px">
+  </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="main" *ngIf="!logged">
+  <p class="sign" align="center">Log in</p>
+  <input class="un " type="text" align="center" placeholder="Username" [(ngModel)]="login" required>
+  <input class="pass" type="password" align="center" placeholder="Password" [(ngModel)]="password" required>
+  <a class="submit" align="center" (click)="auth()">Sign in</a>
+  <p class="no-password" align="center"><a href="#">Forgot Password?</a></p>
+  <p class="no-password" align="center"><a routerLink="/register">Not registered yet?</a></p>
+</div>

@@ -1,0 +1,19 @@
+<div class="main">
+  <p class="sign" align="center">Sign Up</p>
+  <label>
+    <input class="un" type="text" placeholder="Name" [(ngModel)]="name" required>
+  </label>
+  <label>
+    <input class="un" type="text"  placeholder="Email" [(ngModel)]="email" required>
+  </label>
+  <label>
+    <input class="un " type="text" placeholder="Username" required [(ngModel)]="login">
+  </label>
+  <label>
+    <input class="pass" type="password" placeholder="Password" required [(ngModel)]="password">
+  </label>
+  <label>
+    <input id="confirm" class="pass" type="password" placeholder="Confirm password" required [(ngModel)]="confirm">
+  </label>
+  <a class="submit" (click)="signup()">Sign up</a>
+</div>

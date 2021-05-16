@@ -1,0 +1,1 @@
+from.views import menu_view, OrderAPIView, MenuDishesAPIView, DishDetailAPIView, orders_list, Register

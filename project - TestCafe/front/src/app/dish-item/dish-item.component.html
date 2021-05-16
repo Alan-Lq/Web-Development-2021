@@ -1,0 +1,27 @@
+<div class="products" >
+  <div class="product-item maxScale">
+      <h2 style="color: black">
+        {{dish.name}}
+      </h2>
+
+      <img src={{dish.imageUrl}} width="270px">
+
+      <div>
+        <h3>Price: {{dish.price}}</h3>
+        <h3>Description: {{dish.description}}</h3>
+        <h3>Count:<span><input class="input" type="text" name="count" [(ngModel)]="dish.count"></span></h3>
+      </div>
+
+      <div *ngIf="logged">
+        <button class="order" (click)="postOrder(dish.name,dish.count,dish.imageUrl,dish.price)">Order</button>
+        <a class="back" (click)="back()">Back</a>
+      </div>
+    <div *ngIf="!logged">
+      <button class="order" routerLink="/login">Login</button>
+      <a class="back" (click)="back()">Back</a>
+    </div>
+
+
+  </div>
+
+</div>
